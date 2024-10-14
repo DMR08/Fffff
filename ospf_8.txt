@@ -1,0 +1,90 @@
+en
+conf t
+router ospf 8
+rout 1.1.1.1
+net 195.170.0.0 0.0.0.127 area 8
+net 10.0.0.0 0.0.0.7 area 8
+net 11.0.0.0 0.0.0.7 area 8
+net 12.0.0.0 0.0.0.7 area 8
+
+
+
+R2
+en
+conf t
+router ospf 8
+rout 2.2.2.2
+net 195.170.1.0 0.0.0.127 area 8
+net 10.0.0.0 0.0.0.7 area 8
+net 14.0.0.0 0.0.0.7 area 8
+net 15.0.0.0 0.0.0.7 area 8
+
+
+
+R3
+en
+conf t
+router ospf 8
+rout 3.3.3.3
+net 195.170.2.0 0.0.0.127 area 8
+net 14.0.0.0 0.0.0.7 area 8
+net 11.0.0.0 0.0.0.7 area 8
+net 13.0.0.0 0.0.0.7 area 8
+
+R4
+en
+conf t
+router ospf 8
+rout 4.4.4.4
+net 195.170.3.0 0.0.0.127 area 8
+net 12.0.0.0 0.0.0.7 area 8
+net 13.0.0.0 0.0.0.7 area 8
+net 16.0.0.0 0.0.0.7 area 8
+
+
+R5
+en
+conf t
+router ospf 8
+rout 5.5.5.5
+net 195.170.4.0 0.0.0.127 area 8
+net 16.0.0.0 0.0.0.7 area 8
+net 15.0.0.0 0.0.0.7 area 8
+net 17.0.0.0 0.0.0.7 area 8
+net 19.0.0.0 0.0.0.7 area 8
+
+
+R6
+en
+conf t
+router ospf 8
+rout 6.6.6.6
+net 195.170.5.0 0.0.0.127 area 8
+net 18.0.0.0 0.0.0.7 area 8
+net 17.0.0.0 0.0.0.7 area 8
+net 21.0.0.0 0.0.0.7 area 8
+net 20.0.0.0 0.0.0.7 area 8
+
+
+
+R7
+en
+conf t
+router ospf 8
+rout 7.7.7.7
+net 195.170.6.0 0.0.0.127 area 8
+net 21.0.0.0 0.0.0.7 area 8
+net 22.0.0.0 0.0.0.7 area 8
+
+
+R8
+en
+conf t
+router ospf 8
+rout 8.8.8.8
+net 195.170.7.0 0.0.0.127 area 8
+net 19.0.0.0 0.0.0.7 area 8
+net 22.0.0.0 0.0.0.7 area 8
+net 20.0.0.0 0.0.0.7 area 8
+
+
